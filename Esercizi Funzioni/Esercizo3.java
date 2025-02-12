@@ -7,7 +7,7 @@ public class Esercizo3 {
         System.out.print("Inserisci il numero di prodotti venduti: ");
         int N = scanner.nextInt();
 
-        int[] quantita = new int[4]; // 0: TV, 1: Frigoriferi, 2: Lavatrici, 3: Altro
+        int[] quantita = new int[4]; 
         double[] ricavi = new double[4];
         double ricavoTotale = 0;
 
@@ -23,7 +23,7 @@ public class Esercizo3 {
                 ricavoTotale += prezzo;
             } else {
                 System.out.println("Tipo non valido, riprova.");
-                i--; // Ripeti l'iterazione
+                i--;
             }
         }
 
